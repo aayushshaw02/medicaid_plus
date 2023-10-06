@@ -1,0 +1,263 @@
+.home_page {
+  background-image: white;
+  color: rgb(252, 248, 248);
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 37%;
+  z-index: 2;
+
+}
+.carousel-caption h5 {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #911f27;
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+}
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  
+  .carousel-caption h5 {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+  }
+  .carousel-caption a {
+    padding: 12px 17px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  
+  .carousel-caption h5 {
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+  }
+  .carousel-caption a {
+    padding: 10px 14px;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+  }
+}
+
+/*--------------specialist----------------*/
+.special {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  background: #f8bec1;
+  margin-top: -12px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.special .header {
+	text-align: center;
+	font-size: 50px;
+    padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.special .header span {
+	color: #911f27;
+}
+
+.special .specialist {
+  color: #911f27;
+  font-weight: bold;
+  font-family: "Poppins";
+  padding: 40px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+
+.special .specialist h2 {
+	font-size: 25px;
+	font-weight: 800;
+}
+
+.special .specialist a {
+  color: rgb(7, 6, 6);
+  background-color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  right: 10px;
+  font-size: 15px;
+  box-shadow: 0 0 5px 1px #911f27;
+  border-radius: 10px;
+}
+
+.special .specialist a:hover {
+  text-decoration: none;
+}
+
+.specialist_text {
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.special .content {
+  color: #911f27;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card_body {
+  box-shadow: 0 0 5px 1px #911f27;
+  border-radius: 20px;
+  background-color: white;
+  height: 140px;
+}
+
+.doc_card_body{
+  box-shadow: 0 0 5px 1px #911f27;
+  border-radius: 20px;
+  background-color: white;
+  height: 150px;
+}
+
+.doc_card_body .doc_rating{
+  padding: 0 0 0 15px;
+}
+.card_speciality {
+  margin: 40px 0;
+  border-radius: 20px;
+  width: 290px;
+}
+
+.card_body a ,.doc_card_body a{
+  color: #63a6b0;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1px 0 10px 15px;
+  font-weight: 600;
+}
+
+.card_body a:hover ,.doc_card_body a:hover{
+  color: #63a6b0;
+  text-decoration: none;
+}
+
+
+
+.card_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  border: 5px solid #fab8bc;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 160px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.docter_card_img{
+  position: absolute;
+  max-width: 110px;
+  max-height: 110px;
+  border: 2px solid #a0383f;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 165px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.card_title {
+  font-size: 20px;
+  width: 200px;
+  padding: 15px 0 0 15px;
+  font-weight: bold;
+  height: 34px;
+} 
+
+.card_text {
+  font-size: 15px;
+  width: 200px;
+  padding: 8px 0 0 15px;
+} 
+
+.card_doc_text{
+  font-size: 15px;
+  width: 200px;
+  height: 30px;
+  padding: 8px 0 0 15px;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+}
+
+
+/*----------Service------------*/
+
+.service .header h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 90px;
+	text-transform: uppercase;
+	font-weight: 700;
+  color: white;
+}
+.service .header span {
+	color: #911f27;
+}
+.single-service {
+	padding: 25px;
+	transition: all .5s ease;
+    text-align: center;
+    color: #911f27;
+}
+.single-service i {
+	font-size: 60px;
+}
+.single-service h2 {
+	font-size: 25px;
+	font-weight: 800;
+}
+.single-service:hover {
+	background: radial-gradient(circle,#ec737b, #b9323b, #911f27);
+	color: #fff;
+}

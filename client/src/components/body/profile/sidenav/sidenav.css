@@ -1,0 +1,61 @@
+.sidebar {
+  background-color: #911f27;
+  position: fixed;
+  overflow: hidden;
+  width: 60px;
+  height: 100vh;
+  transition: 0.1s;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.sidebar:hover {
+  width: 220px;
+}
+.sidebar ul {
+  position: absolute;
+  padding-top: 100px;
+  left: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  position: relative;
+  width: 100%;
+  color: white;
+  list-style: none;
+}
+
+.sidebar ul li:hover {
+  background-color: #f8bec1;
+}
+.sidebar ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+.sidebar ul li a:hover {
+  color: #911f27;
+}
+.sidebar ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+}
+.sidebar ul li a .title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 70px;
+  line-height: 65px;
+  text-align: start;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,519 @@
+/*------------specialists-------------*/
+.specialist_items {
+  background-color: #f8bec1;
+  height: 100%;
+}
+
+.specialist_items h1 {
+  padding-top: 115px;
+  justify-content: center;
+  color: #911f27;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: 0 10px;
+}
+
+.fa-stethoscope {
+  color: rgb(14, 1, 1);
+  font-size: 20px;
+}
+
+/*------------categories-------------*/
+
+.categories,
+.specialities {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #f8bec1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.categories .category_screen {
+  max-width: 350px;
+  min-width: 320px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 35px;
+  box-shadow: 0 0 19px 0 #911f27;
+  background-color: white;
+  border-radius: 10px;
+  top: 700px;
+  left: 0;
+  transition: 0.5s;
+}
+
+.specialities .speciality_screen {
+  max-width: 390px;
+  min-width: 320px;
+  width: 100%;
+  margin: 100px auto;
+  padding: 20px 15px;
+  box-shadow: 0 0 19px 0 #911f27;
+  background-color: white;
+  border-radius: 10px;
+  top: 700px;
+  left: 0;
+  transition: 0.5s;
+}
+
+.categories .category_screen h4,
+.specialities .speciality_screen h4 {
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin: 10px 0;
+}
+
+.categories .category_screen input,
+.specialities .speciality_screen input,
+.pdf_of_test {
+  max-width: 400px;
+  width: 250px;
+  height: 40px;
+  margin: 5px 0;
+  border: 2px solid #911f27;
+  outline: none;
+  background: #f8e2e3;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.category_button {
+  background: #911f27;
+  color: white;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+  margin: 12px 0;
+}
+
+.categories .category_screen .screen {
+  justify-content: center;
+}
+
+/* ------------ Category Table------------ */
+
+.category_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.category_table td,
+.category_table th {
+  border: 2px solid #ad5157;
+  padding: 8px;
+  min-width: 100px;
+}
+.category_table tr:nth-child(even) {
+  background: #fce8e9;
+}
+.category_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #911f27;
+  color: white;
+}
+.category_table i {
+  cursor: pointer;
+}
+
+/*----------Create Blog----------*/
+
+.create_blog {
+  height: 100%;
+  padding-top: 90px;
+  margin-left: 30px;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #f8bec1;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog_pro {
+  width: 75%;
+  margin: 50px auto;
+  padding: 35px;
+  box-shadow: 0 0 19px 0 #911f27;
+  background-color: white;
+  border-radius: 10px;
+  top: 750px;
+  left: 0;
+  transition: 0.5s;
+}
+
+.blog_pro h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog_post_btn {
+  background: #911f27;
+  color: white;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+  margin: 12px 0;
+  max-height: 40px;
+}
+
+.fill_all_btn{
+  background: crimson;
+  color: white;
+  padding: 8px 25px;
+  /* text-transform: uppercase; */
+  /* border-radius: 5px; */
+  font-weight: bolder;
+  /* letter-spacing: 1px; */
+  margin: 12px 0;
+  text-align: center;
+}
+
+.appointment_description {
+  width: 80%;
+  min-width: 250px;
+  height: 60px;
+  margin: 5px 0;
+  border: 2px solid #911f27;
+  outline: none;
+  background: #f8e2e3;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+/* ----------CONTACT -------------*/
+
+.contact_container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20px;
+  background-color: #f8bec1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.contact_container .container {
+  max-width: 1000px;
+  width: 85%;
+  height: 80%;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 56%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 19px 0 #911f27;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../images/bg.gif");
+ background-repeat:no-repeat;
+ background-size:cover; */
+}
+
+.contact-form {
+  /* width: 400px; */
+  /* width: 90%; */
+  margin: 10px auto;
+  padding: 35px;
+  /* box-shadow: 0 0 19px 0 #911F27; */
+  background-color: white;
+  border-radius: 10px;
+
+  transition: 0.5s;
+}
+
+.contact-page label {
+  display: flex;
+  /* margin-top: 5px; */
+}
+
+.contact-page .group {
+  width: 250px;
+  height: 40px;
+
+  border: 2px solid #911f27;
+  outline: none;
+  background: #f8e2e3;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.contact-page textarea {
+  width: 250px;
+  margin: 5px 0;
+  border: 2px solid #911f27;
+  outline: none;
+  background: #f8e2e3;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.contact-page .send_btn {
+  background: #911f27;
+  color: white;
+  padding: 2px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1.4px;
+  left: 10px;
+  width: 90px;
+  text-align: center;
+  justify-content: center;
+  margin: 5px 75px;
+}
+
+.img-container {
+  width: 50%;
+  margin: auto 20px;
+  justify-content: center;
+  text-align: center;
+}
+.contact-img {
+  height: 55vh;
+}
+
+.Mode_of_Appointment {
+  display: block;
+}
+
+.Mode_of_Appointment label {
+  margin: 0 0 -20px 10px;
+}
+
+.Mode_of_Appointment input {
+  transform: translate(2%, -30%);
+  height: 20px;
+}
+
+.fa-download {
+  color: black;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-img {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-img {
+    height: 40vh;
+  }
+  .img-container {
+    width: 50%;
+    margin: auto 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-img {
+    height: 38vh;
+  }
+  .img-container {
+    width: 42%;
+    margin: auto 10px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .contact_container .container {
+    max-width: 350px;
+    min-width: 280px;
+  }
+  .contact-page textarea {
+    height: 70px;
+  }
+
+  .img-container {
+    display: none;
+    width: 0;
+  }
+  .contact-img {
+    display: none;
+  }
+}
+
+
+/* ---------- About Us ----------- */
+
+.aboutUsPage{
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #f8bec1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+
+}
+.aboutUsPage h1{
+  margin: 0 0 25px 0;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #911f27;
+}
+
+.aboutUsPage .team-area{
+  padding-top: 5%;
+}
+.aboutUsPage .single-team{
+  background-color: black;
+  margin-bottom: 10px;
+}
+.aboutUsPage .single-team:hover .social{
+  cursor: pointer;
+  opacity: 1;
+  transform: rotateY(0deg) scale(1, 1);
+}
+.aboutUsPage .img-area{
+  overflow: hidden;
+  position: relative;
+}
+.aboutUsPage .img-area img{
+  width: 100%;
+  /* height: 400px; */
+}
+.aboutUsPage .img-area:hover img{
+  transform: scale(1.2)
+}
+.aboutUsPage .img-area img{
+  transition: all 0.4s ease 0s;
+}
+@media (max-width: 768px){
+  .aboutUsPage .img-area img{
+      display: inline-block;
+  }
+}
+.aboutUsPage .img-area .social{
+  background-color: rgba(5, 5, 5, 0.4);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: .5s;
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.aboutUsPage .img-area .social ul{
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.aboutUsPage .img-area .social ul li a{
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.aboutUsPage .img-area .social ul li a:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid transparent;
+}
+.aboutUsPage .img-text{
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+}
+.aboutUsPage .img-text h4{
+  margin: 0 0 5px;
+  font-size: 30px;
+  font-family:fantasy;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.aboutUsPage .img-text h5{
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.profile_header .open-button {
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 #b91d28;
+  opacity: 1;
+  position: fixed;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  padding: 0 0;
+}
+
+.required-field::before {
+  content: "*";
+  color: red;
+  font-size: 22px;
+}
+
+.profile_page .book_appointment{
+  text-align: center;
+  justify-content: center;
+}
+
+.profile_page .book_appointment h3{
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-plus-circle{
+  margin-top: 50px;
+}
+.fa-calendar-plus-o{
+  margin: 0 8px;
+  padding: 0 4px;
+}
+.slot_p{
+  background-color: #911f27;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.slot_header{
+  margin-top: 7px;
+}
