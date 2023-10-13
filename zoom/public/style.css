@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#video-grid {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+video {
+  display: block;
+  flex: 1;
+  object-fit: cover;
+  border: 5px solid #911f27;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 20px;
+}
+.main {
+  height: 100%;
+  display: flex;
+}
+.main__left {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+.main__right {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 3px solid #911f27;
+  /* border-left: 1px solid #911F27; */
+}
+.main__videos {
+  flex-grow: 1;
+  background-color: #f8bec1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__controls {
+  display: flex;
+  background-color: #911f27;
+  color: white;
+  padding: 5px;
+  justify-content: space-between;
+}
+.main__controls_block {
+  display: flex;
+}
+.main__controls_button {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  margin: 5px;
+}
+.main__controls_button span {
+  margin-top: 10px;
+  display: block;
+}
+.main__controls_button:hover {
+  background-color: #f8bec1;
+  color: #911f27;
+}
+.main__controls_button i {
+  font-size: 25px;
+}
+.leaveMeeting {
+  background-color: red;
+  color: #fff;
+}
+.main__header {
+  color: white;
+  background-color: #911f27;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.main__chat__window {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 20px 20px 0 20px;
+  background-color: #f8bec1;
+}
+.main__message_container {
+  padding: 22px 11px;
+  display: flex;
+}
+.main__message_container input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  color: rgb(70, 15, 15);
+  font-size: 18px;
+  user-select: none;
+  outline: none;
+}
+
+#all_messages li {
+  color: #911f27;
+  font-size: 19px;
+  list-style: none;
+  border-bottom: 1px solid #911f27;
+  padding: 10px 0;
+}
+.unmute {
+  color: red;
+}
